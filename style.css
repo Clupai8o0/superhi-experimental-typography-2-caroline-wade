@@ -1,0 +1,51 @@
+@font-face {
+	font-family: Bandeins Strange;
+	src: url(assets/bandeins-strange-variable.ttf);
+
+}
+
+body {
+	background-color: black;
+	color: white;
+	margin: 50vh 40px 40px 40px;
+
+	font-family: Bandeins Strange;
+  font-size: 60px;
+}
+
+h1 {
+	position: fixed;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+nav {
+	position: fixed;
+	top: 80px;
+	right: 80px;
+	z-index: 1;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	margin: 0 0 0 30px;
+  font-variation-settings: "wght" 100, "wdth" 100;
+  transition: font-variation-settings 0.2s;
+}
+
+a:hover {
+  font-variation-settings: "wght" 900, "wdth" 200;
+}
+
+img {
+	width: 100%;
+	height: calc(100% - 80px);
+	object-fit: cover;
+	position: sticky;
+	top: 40px;
+}
